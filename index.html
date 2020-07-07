@@ -16,7 +16,10 @@
       </center>
     </div>
     
-    canvasContext.fillRect(20,20,20,20);
+    const ctx = wx.createCanvasContext('myCanvas')
+    ctx.setFillStyle('red')
+    ctx.fillRect(10, 10, 150, 75)
+    ctx.draw()
     
     
   </body>
