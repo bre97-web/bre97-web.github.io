@@ -8,11 +8,6 @@
 
     
 <script>
-      function androidJump(){
-        window.location.herf="https://developer.android.google.cn/studio/"
-      }
-
-
     </script>
 
     <style>
@@ -21,7 +16,7 @@
         font: bold 25px/1 "Google Fonts";
         color:#3ddc84;
        // margin:0 auto;
-        background:#131313;
+        background:#333333;
         width:400px auto;
         height:900px;
         border:0px solid darkslategray;
@@ -66,10 +61,10 @@
       }
 
 
-      .androidDevDownButton{
+      .DownButton{
         font:25px/1 "Google Fonts";
         color:#FFFFFF;
-        margin:left;
+        margin:0 auto;
         background:#138ccf;
         width:300px;
         height:70px;
@@ -77,18 +72,28 @@
         border-radius:20px;
         text-align: center;
         line-height:3;
+        //float:left;
+        //margin-right:20px;
+        //margin-left:0px ;
       }
-      button{
+      .infButton{
         font:25px/1 "Google Fonts";
-        color:#FFFFFF;
-        margin:left;
-        background:#138ccf;
+        color:#000000;
+        margin:0 auto;
+        background:#FFFFFF;
         width:300px;
         height:70px;
-        border:0px solid darkslategray;
+        border:0px solid #000000;
         border-radius:20px;
         text-align: center;
         line-height:3;
+        //float:center;
+        //margin-right:20px;
+        //margin-left:0px auto;
+      }
+      
+      .clear{
+        clear:both;
       }
 
   
@@ -120,8 +125,12 @@
         Android Dev OW
       </div>
       <h5><font color="#FFFFFF">使用Android Studio创造无限Bug , 记住 , Test Review与你同在.</font></h5>
+      <img src="https://github.com/bre97-web/bre97-web.github.io/blob/master/images/AndroidLOGO2.png?raw=true" width=500px />
       <a href="https://developer.android.google.cn/studio/">
-        <div class="androidDevDownButton">Android Studio Download</div>
+        <div class="DownButton">Android Studio Download</div>
+        </a><br>
+      <a href="https://developer.android.google.cn/docs">
+        <div class="infButton">More Information</div>
       </a>
     </div>
 
