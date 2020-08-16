@@ -1,82 +1,13 @@
 
-.home{
-    font: bold 30px/1 "Google Fonts","Microsoft Yahei UI";
-    color:#5E99F0;
-    text-align:center;
-    margin:0px auto;
-    width:400px;
-    height:30px;
-    background-color:#E9E9AE;
+.webbackground {
+  margin: auto auto;
+  border: 0px solid darkslategray;
 }
 
-.webbackground{
-    background:#333333;
-    text-align: center;
-    margin:auto auto;
-    border: auto auto auto auto;
-    padding:auto auto auto auto;
-    width:1024px;
-    height:2500px;
-    border:0px solid darkslategray;
-    border-radius:30px;
-}
-.webbackgroundFont{
-    font: bold 25px/1 "Google Fonts";
-    color:#FFFFFF;
-}
-    
-.BoxandFont{
-    font: bold 45px/1 "Google Fonts";
-    color:#3ddc84;
-    margin:0px auto;
-    background: darkcyan;
-    width:400px;
-    height:100px;
-    border:0px solid darkslategray;
-    border-radius:50px;
-    text-align: center;
-    line-height: 100px;
-    background-color:rgba(0,0,0,0.5);
-}
-.webbackgroundBoxWhite{
-    margin:0px auto;
-    background:#FFFFFF;
-    width:200px;
-    height:5px;
-    border-radius:50px;
-    text-align: center;
-    line-height: 100px;
-}
-
-.button{
-    font:25px/1 "Google Fonts";
-    color:#000000;
-    margin:auto auto;
-    background:#3d7999;
-    width:350px;
-    height:70px;
-    border-radius:20px;
-    text-align: center;
-    line-height:3;
-}
-    
-.clear{
-    clear:both;
-    height: 0;
-    height: 0;
-    overflow: hidden;
-}
-
-.square{
-    font: bold 50px/1 "Google Fonts";
-    color:#FFFFFF;
-    margin:50px auto;
-    padding:10px,auto,10px,10px;
-    background: darkcyan;
-    width:500px;
-    height:600px;
-    border-radius:0px;
-    text-align: left;
-    line-height: 0  px;
-    background-color:rgba(0,0,0,0.5);
+.button {
+  width: 350px;
+  height: 70px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 3;
 }
