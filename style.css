@@ -1,13 +1,50 @@
 
-.webbackground {
+.centerground {
   margin: auto auto;
   border: 0px solid darkslategray;
+  width:100%;
+}
+.centerground2 {
+  margin: auto auto;
+  border: 0px solid darkslategray;
+  width:70%;
+}
+.centerground2:hover{
+    color:green;
+  }
+
+.inf1 {
+  width:90%;
+  font-size:100px;
+  text-align:left;
+  height:auto;
+  margin:auto auto auto 10px;
+}
+.inf2 {
+  width:80%;
+  font-size:50px;
+  text-align:left;
+  height:auto;
+  margin:auto auto auto 40px;
+}
+.inf3 {
+  font-size:30px;
+  color:#FFFFFF;
 }
 
 .button {
-  width: 350px;
-  height: 70px;
+  width: 100%;
+  height:15%;
   border-radius: 20px;
   text-align: center;
   line-height: 3;
+}
+
+.inlineblock {
+  display: inline-block;
+  vertical-align: -0%;
+}
+
+.colorspace {
+  width:100%;height:10px;
 }
