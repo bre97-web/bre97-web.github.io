@@ -2,12 +2,12 @@
 .centerground {
   margin: auto auto;
   border: 0px solid darkslategray;
-  width:100%;
+  width:auto;
 }
 .centerground2 {
   margin: auto auto;
   border: 0px solid darkslategray;
-  width:70%;
+  width:85%;
 }
 .centerground2:hover{
     color:green;
