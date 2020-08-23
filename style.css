@@ -10,7 +10,7 @@
   width:85%;
 }
 .centerground2:hover{
-    color:green;
+    color:#afc3d4;
   }
 
 .inf1 {
@@ -48,7 +48,6 @@
 
 .inlineblock {
   display: inline-block;
-  vertical-align: -0%;
 }
 
 .colorspace {
