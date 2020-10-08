@@ -13,15 +13,6 @@
   margin:auto;
 }
 
-
-
-
-
-/*
-  button组件外层必须套一层:
-    height 75px
-    width  200px / 400px
-*/
 .button {
   width: 400px;
   height:60px;
