@@ -1,7 +1,7 @@
 
 .background {
   width:1280px;
-  height:500px;
+  height:700px;
   margin:auto;
   background-color:#e5e5e5;
 }
@@ -13,6 +13,15 @@
   margin:auto;
 }
 
+
+
+
+
+/*
+  button组件外层必须套一层:
+    height 75px
+    width  200px / 400px
+*/
 .button {
   width: 400px;
   height:60px;
@@ -27,3 +36,6 @@
   border-left-width: 5px;
 }
 
+.boxblack {
+  box-shadow:#0d0d0d 0px 2px 5px -1px;
+}

@@ -7,31 +7,33 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+  
 
-  <!-- 置顶 -->
-  <!-- div style="position:fixed;left:200px;width:400px;height:200px>66</div> -->
-  <!-- 头像 背景 文字 -->
-  <div class="background" style="position:relative">
-    <div style="opacity:1">
-      <img src="Resources/avatarbackground.PNG" alt="Picture-Error" width="1280" height="500" />
-    </div>
-    <div style="position:absolute;top:55px;left:55px;">
-      <img src="Resources/avatar.PNG" alt="Picture-Error" width="390" height="390" />
-    </div>
-    <div style="position:absolute;top:80px;left:500px;color:#333333">
-      <div style="font-size:5em;color:#0d0d0d">Bre97 Website</div>
-      <div style="font-size:2em">This is my personal homepage.</div>
-      <div style="font-size:2em">You can see content , but there is nothing here.</div>
-    </div>
+    <!-- 顶部元素 -->
+  <div style="position:fixed;z-index:2;">
+    <div  class="boxblack"  style="position:absolute;top:1em;left:10em;border-radius:10px;text-align:center;line-height:3;width:35em;height:3em;background-color:#f2f2f2;font-size:1.5em">Hello Bre97</div>
   </div>
 
-
-  <div class="background" style="position:relative">
-    <div style="margin:0em 3em;width:400px;height:60px">
-      <a href="https://github.com/bre97-web?tab=repositories"><div class="button" style="background-color:rgba(230, 230, 230, 0.90);color:#0d0d0d;font-size:1.5em">Go to GitHub</div></a>
+    <!-- 头像 背景 文字 -->
+    <div class="background" style="position:relative;z-index:0">
+      <div style="opacity:1">
+        <img src="Resources/avatarbackground.PNG" alt="Picture-Error" width="1280" height="500" />
+      </div>
+      <div style="position:absolute;z-index:1;top:10em;left:5em;width:25em;height:25em;border: 1px solid #fff">
+        <img src="Resources/avatar.PNG" alt="Picture-Error" width="400" height="400" />
+      </div>
+      <div style="position:absolute;z-index:1;top:10em;left:32em;width:43em;height:25em;border: 1px solid #fff">
+        <div style="font-size:5em;color:#0d0d0d">Bre97 Website</div>
+        <div style="font-size:2em;color:#262626">&emsp;This is my personal homepage.</div>
+        <div style="font-size:2em;color:#262626">&emsp;You can see content , but nothing here.</div>
+      </div>
     </div>
-</div>
 
+    <div class="background" style="position:relative;z-index:0">
+      <div style="margin:0em 3em;width:400px;height:60px">
+        <a href="https://github.com/bre97-web?tab=repositories"><div class="button" style="background-color:rgba(230, 230, 230, 0.90);color:#0d0d0d;font-size:1.5em">Go to GitHub</div></a>
+      </div>
+  </div>
 
 
 
