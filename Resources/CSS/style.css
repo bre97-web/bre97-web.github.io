@@ -26,10 +26,6 @@
   border-left-width: 5px;
 }
 
-.boxblack {
-  box-shadow:#0d0d0d 0px 2px 5px 0px;
-}
-
 .top {
   position:fixed;
   top:1em;
@@ -41,5 +37,5 @@
   height:3em;
   background-color:#f2f2f2;
   font-size:1.5em
-
+  box-shadow:#0d0d0d 0px 2px 5px 0px;
 }
