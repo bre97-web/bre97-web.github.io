@@ -9,7 +9,7 @@
 }
 
 
-.top{
+.topTitle{
 position:fixed;
 
 width:35em;
@@ -26,6 +26,26 @@ font-size:1.5em;
 background-color:#f2f2f2;
 
 box-shadow:#0d0d0d 0px 2px 5px 0.5px;
+}
+
+topSquare {
+position:fixed;
+
+width:35em;
+height:3em;
+
+left:10em;
+
+border-radius:10px;
+text-align:center;
+line-height:3;
+font-size:1.5em;
+
+background-color:#f2f2f2;
+
+box-shadow:#0d0d0d 0px 2px 5px 0.5px;
+
+
 }
 
 
