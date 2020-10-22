@@ -1,11 +1,35 @@
 
 .background {
-  width:1280px;
-  margin:auto;
   position:relative;
   z-index:-2;
+
+  width:1280px;
+  margin:auto;
+
   background-color:#e5e5e5;
 }
+
+
+.top{
+position:fixed;
+z-index:999;
+
+width:35em;
+height:3em;
+
+top:1em;
+left:10em;
+
+border-radius:10px;
+text-align:center;
+line-height:3;
+font-size:1.5em;
+
+background-color:#f2f2f2;
+
+box-shadow:#0d0d0d 0px 2px 5px 0.5px;
+}
+
 
 .avatar {
   border-radius:50%;
@@ -29,21 +53,6 @@
 }
 
 .boxblack {
-  box-shadow:#0d0d0d 0px 2px 5px 0px;
+  box-shadow:#0d0d0d 0px 2px 5px 0.5px;
 }
 
-
-.top{
-position:fixed;
-z-index:999;
-top:1em;
-left:10em;
-border-radius:10px;
-text-align:center;
-line-height:3;
-width:35em;
-height:3em;
-background-color:#f2f2f2;
-font-size:1.5em;
-box-shadow:#0d0d0d 0px 2px 5px 0.5px;
-}
