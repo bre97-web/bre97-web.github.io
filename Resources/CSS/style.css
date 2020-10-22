@@ -31,10 +31,8 @@ box-shadow:#0d0d0d 0px 2px 5px 0.5px;
 .topSquare {
 position:fixed;
 
-width:35em;
-height:3em;
-
-left:10em;
+width:100%;
+height:4em;
 
 border-radius:10px;
 text-align:center;
