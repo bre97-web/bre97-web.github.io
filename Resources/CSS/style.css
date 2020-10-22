@@ -2,7 +2,8 @@
 .background {
   width:1280px;
   margin:auto;
-position:relative;z-index:2;
+  position:relative;
+  z-index:2;
   background-color:#e5e5e5;
 }
 
@@ -43,5 +44,5 @@ width:35em;
 height:3em;
 background-color:#f2f2f2;
 font-size:1.5em;
-box-shadow:#0d0d0d 0px 2px 5px 0px;
+box-shadow:#0d0d0d 0px 2px 5px 0.5px;
 }
