@@ -12,8 +12,17 @@
   margin:auto;
 }
 
+
+
+
+
+/*
+  button×é¼þÍâ²ã±ØÐëÌ×Ò»²ã:
+    height 75px
+    width  200px / 400px
+*/
 .button {
-  width: 200px;
+  width: 400px;
   height:60px;
   border-radius: 10px;
   text-align: center;
@@ -26,16 +35,6 @@
   border-left-width: 5px;
 }
 
-.top {
-  position:fixed;
-  top:1em;
-  left:10em;
-  border-radius:10px;
-  text-align:center;
-  line-height:3;
-  width:35em;
-  height:3em;
-  background-color:#f2f2f2;
-  font-size:1.5em
+.boxblack {
   box-shadow:#0d0d0d 0px 2px 5px 0px;
 }
