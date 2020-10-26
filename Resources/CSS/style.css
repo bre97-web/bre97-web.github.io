@@ -9,13 +9,14 @@
 }
 
 
+
 .topTitle {
 position:fixed;
 
 width:35em;
 height:3em;
 
-margin：0 auto;
+margin:0 auto;
 
 border-radius:10px;
 text-align:center;
