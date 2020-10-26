@@ -15,8 +15,7 @@ position:fixed;
 width:35em;
 height:3em;
 
-top:1em;
-left:10em;
+margin：0 auto;
 
 border-radius:10px;
 text-align:center;
