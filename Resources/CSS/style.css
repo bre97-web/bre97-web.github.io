@@ -16,8 +16,14 @@ position:fixed;
 width:35em;
 height:3em;
 
-margin:0 auto;
 
+top: 0px;
+left: 0px;
+right: 0px;
+margin-left:auto;
+margin-right:auto;
+  
+  
 border-radius:10px;
 text-align:center;
 line-height:3;
