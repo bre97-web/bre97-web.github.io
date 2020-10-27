@@ -50,6 +50,28 @@ background-color:#f2f2f2;
 
 box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
+.topRound {
+position:fixed;
+
+width:4em;
+height:4em;
+
+top:10em;
+left:40em;
+right: 0em;
+margin-left:70%;
+margin-right:auto;
+
+border-radius:100px;
+opacity:0.9;
+text-align:left
+line-height:4;
+font-size:1.5em;
+
+background-color:#f2f2f2;
+
+box-shadow:#0d0d0d 0px 1px 5px 0px;
+}
 }
 
 
