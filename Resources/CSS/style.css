@@ -1,3 +1,32 @@
+﻿
+/*  */
+.centerTitle {
+  font-size:5em;
+  color:#0d0d0d;
+  text-align:center;
+}
+.firstTitle {
+  margin:10px 20px;
+  font-size:5em;
+  color:#0d0d0d;
+}
+.secondTitle {
+  margin:10px 40px;
+  font-size:2em;
+  color:#262626;
+}
+
+.borderSquare {
+  position:absolute;
+  z-index:1;
+
+margin-left:auto;
+margin-right:auto;
+
+border: 1px solid #fff;
+}
+
+/* 圆 通常用于装饰标题  */
 .round {
 width:1em;
 height:1em;
@@ -10,7 +39,7 @@ border-radius:100px;
 box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
 
-
+/* 背景 */
 .background {
   position:relative;
 
@@ -19,6 +48,8 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 
   background-color:#e5e5e5;
 }
+
+/* top用于顶部 title用于中心聚焦 square用于横幅 round用于按钮 */
 .topTitle {
 position:fixed;
 
