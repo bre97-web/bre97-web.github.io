@@ -1,9 +1,18 @@
 ﻿
 .square {
-  float:left;
-  height:5em;
+  display: inline-block;
+  height:15em;
+
+  border-radius: 10px;
 
   background-color:#f2f2f2;
+
+  border-style: solid;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-color:#f2f2f2;  
 
   box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
@@ -17,18 +26,22 @@
 }
 .firstTitle {
   margin:10px 20px;
-  font-size:5em;
+  font-size:3em;
   color:#0d0d0d;
 }
 .secondTitle {
   margin:10px 40px;
-  font-size:2em;
+  font-size:1.5em;
   color:#262626;
 }
 .description {
   margin:10px 40px;
   font-size:1.5em;
   color:#262626;
+}
+.descriptionBasic {
+  color:#262626;
+
 }
 
 .borderSquare {
@@ -139,6 +152,8 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
 
 .button {
+  display: inline-block;
+
   width: 10em;
   height:2em;
   border-radius: 10px;
@@ -151,7 +166,9 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
   border-right-width: 3px;
   border-bottom-width: 3px;
   border-left-width: 3px;
-  border-color:#0d0d0d;
+  border-color:#f2f2f2;
+
+  box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
 
 
