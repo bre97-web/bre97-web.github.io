@@ -26,6 +26,7 @@
   color:#262626;
 }
 .description {
+  margin:10px 40px;
   font-size:1.5em;
   color:#262626;
 }
@@ -67,10 +68,10 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 .topTitle {
 position:fixed;
 
-width:35em;
-height:3em;
+width:30em;
+height:2em;
 
-top: 1em;
+top: 2em;
 left: 0em;
 right: 0em;
 margin-left:auto;
@@ -78,7 +79,7 @@ margin-right:auto;
   
 border-radius:10px;
 text-align:center;
-line-height:3;
+line-height:2;
 font-size:1.5em;
 
 background-color:#f2f2f2;
@@ -90,7 +91,7 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 position:fixed;
 
 width:100%;
-height:5em;
+height:1em;
 
 top: 0em;
 left: 0em;
@@ -110,18 +111,18 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 .topRound {
 position:fixed;
 
-width:3em;
-height:3em;
+width:2em;
+height:2em;
 
-top:1em;
+top:2em;
 left:0em;
 right: 0em;
 margin-left:auto;
-margin-right:1em;
+margin-right:5em;
 
 border-radius:100px;
 text-align:center;
-line-height:3;
+line-height:2;
 font-size:1.5em;
 
 background-color:#f2f2f2;
@@ -138,17 +139,18 @@ box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
 
 .button {
-  width: 400px;
-  height:60px;
+  width: 10em;
+  height:2em;
   border-radius: 10px;
   text-align: center;
-  line-height: 2.5;
+  line-height: 2;
+  font-size: 1.5em;
 
   border-style: solid;
-  border-top-width: 5px;
-  border-right-width: 5px;
-  border-bottom-width: 5px;
-  border-left-width: 5px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
   border-color:#0d0d0d;
 }
 
