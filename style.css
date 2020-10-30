@@ -1,7 +1,7 @@
 ﻿
 .square {
   display: inline-block;
-  height:10em;
+  height:15em;
 
   border-radius: 10px;
 
@@ -26,7 +26,7 @@
 }
 .firstTitle {
   margin:10px 20px;
-  font-size:5em;
+  font-size:3em;
   color:#0d0d0d;
 }
 .secondTitle {
@@ -38,6 +38,10 @@
   margin:10px 40px;
   font-size:1.5em;
   color:#262626;
+}
+.descriptionBasic {
+  color:#262626;
+
 }
 
 .borderSquare {
