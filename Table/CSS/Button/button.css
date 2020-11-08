@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+
+  width: 10em;
+  height:2em;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.5em;
+
+  border-style: solid;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-color:#f2f2f2;
+
+  box-shadow:#0d0d0d 0px 1px 5px 0px;
+}
