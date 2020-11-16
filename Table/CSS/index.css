@@ -1,4 +1,12 @@
 
 @import url("style.css");
+
 @import url("Button/button.css");
+@import url("Button/activity.css");
+
+/* @import url("Text/title.css"); */
+
+@import url("Gra/gra.css");
+
+@import url("Overeall/setting.css");
 
