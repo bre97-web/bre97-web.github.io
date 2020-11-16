@@ -1,0 +1,16 @@
+.square {
+    display: inline-block;
+    height:15em;
+  
+    border-radius: 10px;
+  
+    background-color:#f2f2f2;
+  
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color:#999999;  
+    
+  }
