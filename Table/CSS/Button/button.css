@@ -1,19 +1,17 @@
 
 
 .button {
-  display: inline-block;
 
   width: 10em;
   height:2em;
 
-  margin:auto 10%;
+  margin:5% auto auto auto;
 
   border-radius: 10px;
   text-align: center;
   line-height:2;
   font-size:2em;
   
-  background:#e5e5e5;
   background-color: #3f80ea;
   color: #f2f2f2;
 
@@ -23,8 +21,14 @@
 
 }
 .oneTitle {
+  color: #0d0d0d;
   font-size:4em;
   margin:auto auto auto 5%;
+}
+.twoTitle {
+  color: #737373;
+  font-size:2em;
+  margin:auto auto 5% 5%;
 }
 
 /* 适用于顶部的固定按钮 */
