@@ -1,56 +1,61 @@
-
+﻿
 
 .button {
-
   width: 10em;
   height:2em;
-
-  margin:5% auto auto auto;
+  margin:auto auto;
 
   border-radius: 10px;
   text-align: center;
   line-height:2;
   font-size:2em;
   
-  background-color: #3f80ea;
-  color: #f2f2f2;
+  -moz-user-select: none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
 
-  box-shadow:#0d0d0d 0px 1px 5px 0px;  
-  
-  
-
-}
-.oneTitle {
+  background-color: #f2f2f2;
   color: #0d0d0d;
-  font-size:4em;
-  margin:auto auto auto 5%;
+
+  box-shadow:#0d0d0d 0px 1px 3px 0px;  
 }
-.twoTitle {
-  color: #737373;
+
+.newButton {
+  width: 10em;
+  height:2em;
+  margin:auto auto;
+
+  border-radius: 10px;
+  text-align: center;
+  line-height:2;
   font-size:2em;
-  margin:auto auto 5% 5%;
+
+  -moz-user-select: none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+
+  background-color: rgb(230, 230, 230);
+  
+  position: relative;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.35);
 }
+.newButtonSmall {
+  width: 5em;
+  height:2em;
+  margin:auto auto;
 
-/* 适用于顶部的固定按钮 */
-  .buttonTopRound {
-    position:fixed;
-    
-    width:2em;
-    height:2em;
-    
-    top:2em;
-    left:0em;
-    right: 0em;
-    margin-left:auto;
-    margin-right:5em;
-    
-    border-radius:100px;
-    text-align:center;
-    line-height:2;
-    font-size:1.5em;
-    
-    background-color:#e5e5e5;
-    color: #0d0d0d; 
+  border-radius: 10px;
+  text-align: center;
+  line-height:2;
+  font-size:2em;
 
-    box-shadow:#0d0d0d 0px 1px 5px 0px;
-    }
+  -moz-user-select: none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+
+  background-color: #227dd4;
+  
+  
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.35);
+}

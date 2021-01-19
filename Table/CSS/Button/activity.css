@@ -1,7 +1,7 @@
-.button:active{
-    opacity: 0.9;
+.newButton:active{
+    opacity: 0.8;
   }
-.buttonTopRound:active{
-    opacity: 0.9;
+.newButtonSmall:active{
+    opacity: 0.8;
   }
   
