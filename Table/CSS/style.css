@@ -1,6 +1,5 @@
 ﻿
 
-
 .borderSquare {
   position:absolute;
   z-index:1;
@@ -14,35 +13,11 @@
 /* 背景 */
 .background {
   position:relative;
-
   width:100%;
   margin:auto;
-
-  background-color:#e5e5e5;
 }
 
-/* top用于顶部 title用于中心聚焦 square用于横幅 round用于按钮 */
-.topTitle {
-position:fixed;
 
-width:30em;
-height:2em;
-
-top: 2em;
-left: 0em;
-right: 0em;
-margin-left:auto;
-margin-right:auto;
-  
-border-radius:10px;
-text-align:center;
-line-height:2;
-font-size:1.5em;
-
-background-color:#f2f2f2;
-
-box-shadow:#0d0d0d 0px 1px 5px 0px;
-}
 
 .topSquare {
 position:fixed;
