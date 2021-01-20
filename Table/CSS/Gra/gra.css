@@ -1,6 +1,7 @@
-.square {
-    display: inline-block;
-    height:15em;
+.squareLine {
+    
+    width:80%;
+    height:10em;
   
     border-radius: 10px;
   
@@ -12,5 +13,16 @@
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-color:#999999;  
-    
+
+  }
+
+  .square {
+
+    width:90%;
+    height:10em;
+  
+    margin:auto auto;
+
+    background-color:#aebfeb;
+
   }
