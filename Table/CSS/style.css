@@ -12,7 +12,7 @@
 
 /* 背景 */
 .background {
-  position:relative;
+  
   width:100%;
   margin:auto;
 }
@@ -31,7 +31,7 @@ right: 0em;
 margin-left:auto;
 margin-right:auto;
 
-opacity:0.9;
+opacity:0.8;
 text-align:left;
 line-height:1;
 font-size:1.5em;
@@ -41,22 +41,3 @@ background-color:#e5e5e5;
 box-shadow:#0d0d0d 0px 1px 5px 0px;
 }
 
-
-
-.avatar {
-  border-radius:50%;
-  width:400px;
-  height:400px;
-  margin:auto;
-}
-.round {
-  width:1em;
-  height:1em;
-  
-  opacity:1;
-  background-color:#1a64e1;
-  
-  border-radius:100px;
-  
-  box-shadow:#0d0d0d 0px 1px 5px 0px;
-}
