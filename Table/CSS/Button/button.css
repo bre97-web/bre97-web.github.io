@@ -1,88 +1,121 @@
 ﻿
 
-.button {
-  width: 10em;
-  height:2em;
-  margin:auto auto;
 
-  border-radius: 10px;
-  text-align: center;
-  line-height:2;
-  font-size:2em;
-  
-  -moz-user-select: none;
-  -webkit-user-select:none;
-  -ms-user-select:none;
+.Button {
+  width : 40%;
+  height :2em;
+  margin : auto auto;
 
-  background-color: #f2f2f2;
-  color: #0d0d0d;
+  text-align : center;
+  line-height : 2;
+  font-size : 2em;
 
-  box-shadow:#0d0d0d 0px 1px 3px 0px;  
+  -moz-user-select : none;
+  -webkit-user-select :none;
+  -ms-user-select : none;
+
+  color : var(--Color_Fonts_Title);
+  background-color : var(--Color_Background_Button);
+  box-shadow : 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
+  border-radius: var(--Border_Radius_Normal);
+
+  transition : all var(--AnimationTransitionTime);
+  transform : scale(1.0);
 }
 
-.newButton {
-  width: 15em;
-  height:2em;
-  margin:auto auto;
+.ButtonLine {
+  width : 5em;
+  margin: 50px 100px auto auto;
 
   border-radius: 10px;
-  text-align: center;
-  line-height:2;
-  font-size:2em;
 
-  -moz-user-select: none;
-  -webkit-user-select:none;
-  -ms-user-select:none;
+  background-color:var(--Color_Fonts_Button);
 
-  background-color: rgb(230, 230, 230);
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.10);
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-color:#999999;  
+
+  transition:all var(--AnimationTransitionTime);
+  transform: scale(1.0);
 }
-.newButtonSmall {
-  width: 5em;
-  height:2em;
-  margin:auto auto;
 
-  border-radius: 10px;
-  text-align: center;
-  line-height:2;
-  font-size:2em;
+.ButtonSmall {  
+  position : relative;
 
-  -moz-user-select: none;
-  -webkit-user-select:none;
-  -ms-user-select:none;
+  width : 5em;
+  height : 2em;
+  margin : auto auto;
 
-  background-color: #227dd4;
+  text-align : center;
+  line-height : 2;
+  font-size : 2em;
+
+  -moz-user-select : none;
+  -webkit-user-select : none;
+  -ms-user-select : none;
+
+  color : var(--Color_Fonts_Title);
+  background-color : var(--Color_Background_Button);
+  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  border-radius : var(--Border_Radius_Normal);
   
-  
-  position: relative;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.35);
+  transition : all var(--AnimationTransitionTime);
+  transform : scale(1.0);
 }
 
 .roundButton {
-  width:1em;
-  height:1em;
-  margin:1.5em 25px 50px 50px;
+  width : 1em;
+  height : 1em;
 
-  text-align: center;
-  line-height:1;
-  font-size:1em;
+  opacity : 1;
+  text-align : center;
+  line-height : 1;
+  font-size : 1em;
 
-  -moz-user-select: none;
-  -webkit-user-select:none;
-  -ms-user-select:none;
+  -moz-user-select : none;
+  -webkit-user-select : none;
+  -ms-user-select : none;
 
-  opacity:1;
-  border-radius:100px;
-  background-color:#1a64e1;
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.35);
+  color : var(--Color_Fonts_Title);
+  background-color : var(--Color_Theme_O);
+  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  border-radius : var(--Border_Radius_Normal);
+
+  transition : all var(--AnimationTransitionTime);
+  transform : scale(1.0);
 }
 
 .webButton {
-  color: #1a64e1;
-  font-size:1.5em;
-  text-decoration:underline;
+  margin : 5% 5% 5% 5%;
 
-  margin:5% auto 5% 5%;
-  
-  
+
+  transition : all var(--AnimationTransitionTime);
+  transform : scale(1.0);
+}
+
+.ButtonFullFrame {
+  position : relative;
+
+  width : 100%;
+  height : 2em;
+
+  border-radius : 0px;
+  text-align : center;
+  line-height : 2;
+  font-size : 2em;
+
+  -moz-user-select : none;
+  -webkit-user-select : none;
+  -ms-user-select : none;
+
+  color : var(--Color_Fonts_Title);
+  background-color : var(--Color_Background_Button);
+  box-shadow : 0px 0px 0px 0px var(--Color_Graphics_Shadow);
+  border-radius : var(--Border_Radius_None);
+
+  transition : all var(--AnimationTransitionTime);
+  transform : scale(1.0);
 }
