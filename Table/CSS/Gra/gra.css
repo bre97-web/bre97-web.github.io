@@ -1,28 +1,96 @@
 .squareLine {
-    
-    width:80%;
-    height:10em;
+  width:100%;
+  margin: 50px 100px auto auto;
+
+  border-radius: 10px;
+
+  background-color:var(--Color_Background);
+
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-color:var(--Color_Background_Button_Line);  
+
+  transition:all var(--AnimationTransitionTime);
+  transform: scale(1.0);
+}
+
+.TextSquare {
+  width:30%;
+  height:450px;
+  margin: 5% 5% 5% 5%;
+
+  border-radius: 10px;
+
+  background-color:var(--Color_Background);
+
+  transition:all var(--AnimationTransitionTime);
+  transform: scale(1.0);
+}
+
+.TopBar{
+  position:fixed;
+
+  width:100%;
+  height:2.7em;
+
+  top: 0em;
+  left: 0em;
+  right: 0em;
+  margin:auto auto auto auto;
+
+  opacity:0.90;
+  text-align:left;
+  line-height:1;
+  font-size:1.5em;
+
+  background-color: var(--Color_Background);
+  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+
+}
+
+.WindowAuto{
+  width: 100%;
+  height:50px;
+  background-color: var(--Color_Background_Button_Insert);
+
+  opacity:0;
+  border-radius: 10px;
+
   
-    border-radius: 10px;
-  
-    background-color:#f2f2f2;
-  
-    border-style: solid;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-color:#999999;  
+  transition:all 1s;
+  transform: scale(1.0);
+}
+.WindowWindows{
+  width: 100%;
+  height:50px;
 
-  }
 
-  .square {
+  text-align : center;
+  color : var(--Color_Fonts_Title);
+  background-color: var(--Color_Background_Button_Insert);
+  border-radius: 10px;
+  opacity:1;
 
-    width:90%;
-    height:10em;
-  
-    margin:auto auto;
+  transition:all 1s;
+  transform: scale(1.0);
+}
 
-    background-color:#aebfeb;
+.WindowAuto:hover {
+  position:fixed;
+  height:90%;
+  opacity:1;
 
-  }
+  transition:all 1s;
+  transform: scale(1.0);
+  background-color: var(--Color_Background_Button);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
+.WindowAuto:active {
+  transition:all 1s;
+  transform: scale(1.0);
+  background-color: var(--Color_Background_Button_Active);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}

@@ -1,0 +1,15 @@
+
+.TextSquare:hover{
+
+  color : var(--Color_Fonts_Title);
+  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+
+  transform: scale(1.1);
+  transition : all var(--AnimationTransitionTime);
+}
+.TextSquare:active{
+  transition:all 1s;
+  transform:scale(1.1,1.2);
+  background-color: var(--Color_VisualCenter_Blue);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
