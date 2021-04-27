@@ -13,43 +13,80 @@
 
     <!-- 顶部固定的顶部栏与按钮 -->
     <div class="TopBar" style="position:fixed;z-index:var(--Z_Axis_Top)"></div>
-    <div class="Button" style="position:fixed;z-index:var(--Z_Axis_Top);top:5%;right:30%;left:30%;">Search For ...</div>
+    <div class="Button" style="position:fixed;z-index:var(--Z_Axis_Top);top:10%;right:30%;left:30%;">Search For ...</div>
     
     
+    <!-- 此处将来更新 -->
     <!-- 左部区域 -->
-    <div class="NoSelect" style="float:left;position:relative;background-color:var(--Color_Background_White_List);width:20%;height:100%;">
-      <div style="position:fixed;width:20%">
-        <div class="Title" style="margin:100px auto auto auto;font-size:3em;text-align: center;">Table of Contents</div>
-        <div class="ButtonFullFrame" style="margin:50px auto 5px auto">Table</div>
-        <div class="ButtonFullFrame">Table</div>
-        <div class="ButtonFullFrame">Table</div>
-        <div class="ButtonFullFrame">Table</div>
-        <div class="Quote" style="font-size:1em;text-align:center">From bre97-web</div>
+    <div class="NoSelect" style="float:left;position:relative;background-color:var(--Color_Background);width:20%;height:100%;">
+      <div class="WindowWindows" style="position: fixed;z-index:var(--Z_Axis_Top);width:20%">
+        <div class="Descripts">Open the Table</div>
+      </div>
+      <div class="WindowAuto" style="position:fixed;z-index:var(--Z_Axis_Top);width:20%;">
+          <div class="Title" style="pointer-events:none;margin:15% auto 10% auto;font-size:3em;text-align: center;">Table of Contents</div>
+          <div class="ButtonFullFrame" style="margin:auto auto 1% auto">My GitHub</div>
+          <div class="ButtonFullFrame">News</div>
+          <div class="ButtonFullFrame">Update Logs</div>
+          <div class="ButtonFullFrame" style="margin:1% auto auto auto">From to ...</div>
+          <div class="ButtonFullFrame">Table</div>
+          <div class="ButtonFullFrame">Table</div>
+          <div class="ButtonFullFrame">Table</div>
+          <div class="ButtonFullFrame" style="margin:1% auto auto auto">Contact Me</div>
+          <div class="Quote" style="margin:10% auto 10% auto;font-size:1em;text-align:center">From bre97-web</div>
       </div>
     </div>
-      
+    
     <!-- 中心区域 -->
-    <div style="float:left;position:relative;background-color:var(--Color_Background_White);width:60%;height:100%">
+    <div class="NoSelect" style="float:left;position:relative;background-color:var(--Color_Background);width:60%;height:100%">
       <div style="height:200px"></div>
 
-
-        <div class="roundButton" style="float:left"></div>
+        <div class="roundButton" style="float:left;"></div>
         <div class="Title">News</div>
-
-        <div class="roundButton" style="background-color:#111111;float:left"></div>
+        <div class="roundButton" style="float:left"></div>
         <div class="Descripts">Repository&ensp;:&ensp;ShadowOfWorld&ensp;ver.C</div>
 
-        <div class="square">56</div>
+        <div class="TextSquare" style="float: left;background-color:var(--Color_Theme_Red);width:50%">
+          <div class="AddTitle" style="margin:5%;">
+            关于储存库 ShadowOfWorld ver.C 的变动<br/>
+            <div class="Article" style="margin:5%">The new features of this repository will be postponed to update soon.<br/>
+              For the experience of new features, please use New Repository.<br/>
+              For all future feature updates, New Repository will be the main target.<br/>
+              All the new single-batch functions are updated to this repository after a 1~4 week delay after the New Repository is updated.<br/>
+              The function of the two repositories is not synchronized.<br/>   
+              Minor differences in this repository will be ignored (e.g. text that appears on the console).<br/>
+              For the life cycle of the two warehouses.<br/>
+              New Repository<br/>
+              Has a functional life cycle of up to 90 days (submitting the draft, testing the code, completing the function).<br/>
+              Has a version life cycle of up to 180 days (Alpha version, Beta version, official version).<br/>
+              Have a project life cycle of up to 10 years (create this repository, maintain this repository, terminate this repository).<br/>
+              This Repository<br/>
+              It has a functional life cycle of up to 180 days (submitting the draft, testing the code, and completing the function).<br/>
+              Has a 365-day version life cycle (Alpha version, Beta version, official version).<br/>
+              Have a project life cycle of up to 10 years (create this repository, maintain this repository, terminate this repository).<br/>
+            </div>
+          </div>
+        </div>
 
-      </div>
+        <div class="TextSquare" style="float: right;background-color: var(--Color_Theme_O);">
+          
+          <div class="AddTitle" style="margin:5%;">
+            关于啥啊<br/>
+            <div class="Article" style="margin:5%">
+              这是一份无聊的草稿
+            </div>
+          </div>
+
+
+        </div>
+    </div>
       
 
 
     <!-- 右部区域 -->
-    <div style="float:left;position:relative;background-color:var(--Color_Background_White);width:20%;height:100%">
+    <div style="float:left;position:relative;background-color:var(--Color_Background);width:20%;height:100%">
 
       <!-- 经典的疑难解答与提问 -->
-      <div class="Questions" style="margin:5% 5% 5% 5%;">
+      <div class="Questions" style="pointer-events:all;margin:5% 5% 5% 5%;">
         
         <div class="squareLine"style="margin:100px 100px auto auto;">
           <a href="https://www.baidu.com"><div class="webButton">How to BaiDu ？</div></a>
