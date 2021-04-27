@@ -1,0 +1,44 @@
+
+:root {
+  --Color_Background : rgb(5,5,5);
+  --Color_Background_List : rgb(25,25,25);
+  --Color_Background_Button : rgb(35,35,35);
+  --Color_Background_Button_Active : rgb(50,50,50);
+  --Color_Background_Button_Line : rgb(56,56,56);
+  --Color_Background_Button_Insert : rgb(50,50,50);
+
+  --Color_VisualCenter_White : rgb(225,225,225);
+  --Color_VisualCenter_Blue : rgb(180, 200, 220);;
+  --Color_VisualCenter_Green : rgb(190, 215, 215);
+
+  --Color_Fonts_Title : rgb(229,229,229);
+  --Color_Fonts_AddTitle : rgb(223,223,223);
+  --Color_Fonts_Descript : rgb(126,126,126);
+  --Color_Fonts_Quote : rgb(153,153,153);
+  --Color_Fonts_Article : rgb(153,153,153);
+  --Color_Fonts_Questions : #314a66;
+  --Color_Fonts_Button : rgb(30,30,30);
+  --Color_Graphics_Shadow : rgba(255, 255, 255, 0.1);
+
+  --Size_Graphics_Shadow : 5px;
+
+  --Color_Theme_Blue : rgb(40,70,110);
+  --Color_Theme_O : rgb(115,80,10);
+  --Color_Theme_Pink : rgb(100,45,100);
+  --Color_Theme_Red : rgb(110,30,30);
+
+
+
+  --Border_Raidus_None : 0px;
+  --Border_Radius_Normal : 10px;
+  --Border_Radius_Biggest : 100px;
+
+  --AnimationTransitionTime : 1s;
+
+
+  --Z_Axis_Top : 5;
+  --Z_Axis_Center : 2;
+  --Z_Axis_Bot : 0;
+}
+
+
