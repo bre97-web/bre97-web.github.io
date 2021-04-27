@@ -1,0 +1,31 @@
+.NoSelect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.Title{
+  color: var(--Color_Fonts_Title);
+  font-size:4em;
+}
+.Descripts{
+  color:var(--Color_Fonts_Descript);
+  font-size:2em;
+}
+.AddTitle{
+  color:var(--Color_Fonts_AddTitle);
+  font-size:1.5em;
+}
+
+.Quote{
+  color: var(--Color_Fonts_Quote);
+  font-size:1em;
+}
+.Article{
+  color:var(--Color_Fonts_Article);
+  font-size:0.5em;
+
+}
+.Questions{
+  columns: var(--Color_Fonts_Questions);;
+}
