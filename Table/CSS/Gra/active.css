@@ -9,6 +9,7 @@
 }
 .TextSquare:active{
   width:60%;
+  position:fixed;
   transition:all 1s;
   transform:scale(1.1,1.2);
   background-color: var(--Color_VisualCenter_Blue);
