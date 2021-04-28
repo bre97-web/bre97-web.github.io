@@ -1,17 +1,30 @@
 
-.TextSquare:hover{
 
-  color : var(--Color_Fonts_Title);
-  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
-
-  transform: scale(1.1);
-  transition : all var(--AnimationTransitionTime);
+.WindowAuto:hover .WindowContent {
+  display: block;
 }
-.TextSquare:active{
-  width:60%;
-  position:fixed;
-  transition:all 1s;
-  transform:scale(1.1,1.2);
-  background-color: var(--Color_VisualCenter_Blue);
+.WindowAuto:hover {
+  height:90%;
+
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+
+  background-color: var(--Color_Background_Button_Hover);
   box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
+.WindowAuto:active {
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+
+  background-color: var(--Color_Background_Button_Active);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
+
+.WindowAuto:hover .WindowText{
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+
+  filter: blur(15px);
+  opacity: 0;
+
 }

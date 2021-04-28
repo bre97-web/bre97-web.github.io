@@ -1,3 +1,26 @@
+
+.BackgroundLeftMenu{
+  float:left;
+  background-color:var(--Color_Background);
+  position: relative;
+}
+
+.BackgroundCenter{
+  float:right;
+  position:relative;
+  background-color:var(--Color_Background);
+
+  z-index: var(--Z_Axis_Bot);
+}
+
+.BackgroundFullFrame{
+  background-color: var(--Color_Background);
+
+  z-index: var(--Z_Axis_Bot);
+}
+
+
+
 .squareLine {
   width:100%;
   margin: 50px 100px auto auto;
@@ -13,22 +36,11 @@
   border-left-width: 1px;
   border-color:var(--Color_Background_Button_Line);  
 
-  transition:all var(--AnimationTransitionTime);
   transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
 }
 
-.TextSquare {
-  width:30%;
-  height:450px;
-  margin: 5% 5% 5% 5%;
 
-  border-radius: 10px;
-
-  background-color:var(--Color_Background);
-
-  transition:all var(--AnimationTransitionTime);
-  transform: scale(1.0);
-}
 
 .TopBar{
   position:fixed;
@@ -41,6 +53,8 @@
   right: 0em;
   margin:auto auto auto auto;
 
+  z-index:var(--Z_Axis_Top);
+
   opacity:0.90;
   text-align:left;
   line-height:1;
@@ -49,48 +63,44 @@
   background-color: var(--Color_Background);
   box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
 
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+
 }
+
+
 
 .WindowAuto{
-  width: 100%;
+  width:15%;
   height:50px;
   background-color: var(--Color_Background_Button_Insert);
 
-  opacity:0;
   border-radius: 10px;
 
+  position: fixed;
+  display: inline-block;
   
-  transition:all 1s;
+  z-index:var(--Z_Axis_Top);
+
   transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
 }
-.WindowWindows{
+.WindowContent{
+  display: none;
+  position: absolute;
   width: 100%;
-  height:50px;
+  height:0px;
 
-
-  text-align : center;
-  color : var(--Color_Fonts_Title);
-  background-color: var(--Color_Background_Button_Insert);
-  border-radius: 10px;
-  opacity:1;
-
-  transition:all 1s;
   transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+}
+.WindowAuto .WindowText{
+  color: var(--Color_Fonts_Title);
+  font-size:2em;
+
+  text-align: center;
+
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
 }
 
-.WindowAuto:hover {
-  position:fixed;
-  height:90%;
-  opacity:1;
-
-  transition:all 1s;
-  transform: scale(1.0);
-  background-color: var(--Color_Background_Button);
-  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
-}
-.WindowAuto:active {
-  transition:all 1s;
-  transform: scale(1.0);
-  background-color: var(--Color_Background_Button_Active);
-  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
-}
