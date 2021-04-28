@@ -1,15 +1,31 @@
 .Button:hover{
   transition:all 1s;
-  transform: scale(1.1);
-  background-color: var(--Color_Background_Button);
+
+  background-color: var(--Color_Background_Button_Hover);
   box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
-  }
+}
 .Button:active{
   transition:all 1s;
-  transform: scale(1.2);
   background-color: var(--Color_Background_Button_Active);
   box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
 }
+
+
+.TextSquare:hover{
+  color : var(--Color_Fonts_Title);
+  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+
+  transform: scale(1.2);
+  transition : all var(--AnimationTransitionTime);
+}
+.TextSquare:active{
+  transition : all var(--AnimationTransitionTime);
+  transform:scale(1.1,1.2);
+
+  background-color: var(--Color_VisualCenter_Blue);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
+
 
 
 

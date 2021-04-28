@@ -4,7 +4,7 @@
 .Button {
   width : 40%;
   height :2em;
-  margin : auto auto;
+  margin : 5% auto auto auto;
 
   text-align : center;
   line-height : 2;
@@ -13,6 +13,8 @@
   -moz-user-select : none;
   -webkit-user-select :none;
   -ms-user-select : none;
+
+  z-index:var(--Z_Axis_Top);
 
   color : var(--Color_Fonts_Title);
   background-color : var(--Color_Background_Button);
@@ -42,6 +44,17 @@
   transform: scale(1.0);
 }
 
+.TextSquare {
+  width:30%;
+
+  border-radius: 26px;
+
+  background-color:var(--Color_Background);
+
+  transform: scale(1.0);
+  transition : all var(--AnimationTransitionTime);
+}
+
 .ButtonSmall {  
   position : relative;
 
@@ -58,7 +71,7 @@
   -ms-user-select : none;
 
   color : var(--Color_Fonts_Title);
-  background-color : var(--Color_Background_Button);
+  background-color : var(--Color_Background_Button_Hover);
   box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
   border-radius : var(--Border_Radius_Normal);
   
@@ -112,7 +125,7 @@
   -ms-user-select : none;
 
   color : var(--Color_Fonts_Title);
-  background-color : var(--Color_Background_Button);
+  background-color : var(--Color_Background_Button_Hover);
   box-shadow : 0px 0px 0px 0px var(--Color_Graphics_Shadow);
   border-radius : var(--Border_Radius_None);
 
