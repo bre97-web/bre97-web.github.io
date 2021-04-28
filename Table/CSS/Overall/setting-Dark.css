@@ -2,7 +2,9 @@
 :root {
   --Color_Background : rgb(5,5,5);
   --Color_Background_List : rgb(25,25,25);
-  --Color_Background_Button : rgb(35,35,35);
+
+  --Color_Background_Button : rgb(25,25,25);
+  --Color_Background_Button_Hover : rgb(35,35,35);
   --Color_Background_Button_Active : rgb(50,50,50);
   --Color_Background_Button_Line : rgb(56,56,56);
   --Color_Background_Button_Insert : rgb(50,50,50);
@@ -21,6 +23,7 @@
   --Color_Graphics_Shadow : rgba(255, 255, 255, 0.1);
 
   --Size_Graphics_Shadow : 5px;
+
 
   --Color_Theme_Blue : rgb(40,70,110);
   --Color_Theme_O : rgb(115,80,10);
