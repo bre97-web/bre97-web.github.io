@@ -22,22 +22,24 @@
   --Color_Fonts_Button : rgb(225,225,225);
   --Color_Graphics_Shadow : rgba(0, 0, 0, 0.1);
 
-  --Size_Graphics_Shadow : 5px;
-
-
   --Color_Theme_Blue : rgb(72,135,215);
   --Color_Theme_O : rgb(230,150,20);
   --Color_Theme_Pink : rgb(195,90,190);
   --Color_Theme_Red : rgb(215,56,56);
 
+  /* -------------------------------------------------------- */
 
+  --Size_Graphics_Shadow : 5px;
+
+  --Size_Button_Fonts_Title : 2em;
 
   --Border_Raidus_None : 0px;
   --Border_Radius_Normal : 10px;
   --Border_Radius_Biggest : 100px;
 
-  --AnimationTransitionTime : 1s;
-
+  --AnimationTransitionTime_None : 1s;
+  --AnimationTransitionTime_Hover : 1s;
+  --AnimationTransitionTime_Active : 0.5s;
 
   --Z_Axis_Top : 5;
   --Z_Axis_Center : 2;
