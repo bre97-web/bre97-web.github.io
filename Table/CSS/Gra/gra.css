@@ -19,60 +19,41 @@
   z-index: var(--Z_Axis_Bot);
 }
 
-
-
 .squareLine {
   width:100%;
   margin: 50px 100px auto auto;
 
-  border-radius: 10px;
-
   background-color:var(--Color_Background);
 
   border-style: solid;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
+  border-width: 1px;
+  border-radius: 10px;
   border-color:var(--Color_Background_Button_Line);  
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 }
-
-
 
 .TopBar{
   position:fixed;
 
   width:100%;
-  height:2.7em;
-
-  top: 0em;
-  left: 0em;
-  right: 0em;
-  margin:auto auto auto auto;
+  height:6%;
 
   z-index:var(--Z_Axis_Top);
 
   opacity:0.90;
-  text-align:left;
-  line-height:1;
-  font-size:1.5em;
 
   background-color: var(--Color_Background);
-  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  box-shadow : 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 
 }
 
-
-
 .WindowAuto{
+  margin: 0.25% auto auto auto;
   width:15%;
-  height:50px;
+  height:5%;
   background-color: var(--Color_Background_Button_Insert);
 
   border-radius: 10px;
@@ -82,8 +63,7 @@
   
   z-index:var(--Z_Axis_Top);
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 }
 .WindowContent{
   display: none;
@@ -91,16 +71,14 @@
   width: 100%;
   height:0px;
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 }
 .WindowAuto .WindowText{
   color: var(--Color_Fonts_Title);
-  font-size:2em;
+  font-size:var(--Size_Button_Fonts_Title);
 
   text-align: center;
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 }
 

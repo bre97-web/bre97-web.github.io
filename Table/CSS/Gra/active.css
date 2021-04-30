@@ -1,30 +1,25 @@
 
-
 .WindowAuto:hover .WindowContent {
   display: block;
 }
 .WindowAuto:hover {
   height:90%;
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_Hover);
 
   background-color: var(--Color_Background_Button_Hover);
-  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  box-shadow: 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
 }
 .WindowAuto:active {
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_Active);
 
   background-color: var(--Color_Background_Button_Active);
-  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  box-shadow: 0px 1px 0px 1px var(--Color_Graphics_Shadow);
 }
 
 .WindowAuto:hover .WindowText{
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_Hover);
 
   filter: blur(15px);
   opacity: 0;
-
 }
