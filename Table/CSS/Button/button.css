@@ -1,18 +1,14 @@
 ﻿
 
 
-.Button {
+.ButtonNormal {
   width : 40%;
   height :2em;
   margin : 5% auto auto auto;
 
   text-align : center;
   line-height : 2;
-  font-size : 2em;
-
-  -moz-user-select : none;
-  -webkit-user-select :none;
-  -ms-user-select : none;
+  font-size : var(--Size_Button_Fonts_Title);
 
   z-index:var(--Z_Axis_Top);
 
@@ -21,38 +17,30 @@
   box-shadow : 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
   border-radius: var(--Border_Radius_Normal);
 
-  transition : all var(--AnimationTransitionTime);
-  transform : scale(1.0);
+  transition : all var(--AnimationTransitionTime_None);
 }
 
 .ButtonLine {
   width : 5em;
-  margin: 50px 100px auto auto;
-
-  border-radius: 10px;
 
   background-color:var(--Color_Fonts_Button);
-
+  
+  border-radius: 10px;
   border-style: solid;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
+  border-width: 1px;
   border-color:#999999;  
 
-  transition:all var(--AnimationTransitionTime);
-  transform: scale(1.0);
+  transition:all var(--AnimationTransitionTime_None);
 }
 
-.TextSquare {
+.ButtonText {
   width:30%;
 
   border-radius: 26px;
 
   background-color:var(--Color_Background);
 
-  transform: scale(1.0);
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
 }
 
 .ButtonSmall {  
@@ -64,19 +52,14 @@
 
   text-align : center;
   line-height : 2;
-  font-size : 2em;
-
-  -moz-user-select : none;
-  -webkit-user-select : none;
-  -ms-user-select : none;
+  font-size : var(--Size_Button_Fonts_Title);
 
   color : var(--Color_Fonts_Title);
   background-color : var(--Color_Background_Button_Hover);
-  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  box-shadow : 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
   border-radius : var(--Border_Radius_Normal);
   
-  transition : all var(--AnimationTransitionTime);
-  transform : scale(1.0);
+  transition : all var(--AnimationTransitionTime_None);
 }
 
 .roundButton {
@@ -88,25 +71,19 @@
   line-height : 1;
   font-size : 1em;
 
-  -moz-user-select : none;
-  -webkit-user-select : none;
-  -ms-user-select : none;
-
   color : var(--Color_Fonts_Title);
   background-color : var(--Color_Theme_O);
-  box-shadow : 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+  box-shadow : 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
   border-radius : var(--Border_Radius_Normal);
 
-  transition : all var(--AnimationTransitionTime);
+  transition : all var(--AnimationTransitionTime_None);
   transform : scale(1.0);
 }
 
-.webButton {
+.ButtonWeb {
   margin : 5% 5% 5% 5%;
 
-
-  transition : all var(--AnimationTransitionTime);
-  transform : scale(1.0);
+  transition : all var(--AnimationTransitionTime_None);
 }
 
 .ButtonFullFrame {
@@ -115,10 +92,9 @@
   width : 100%;
   height : 2em;
 
-  border-radius : 0px;
   text-align : center;
   line-height : 2;
-  font-size : 2em;
+  font-size : var(--Size_Button_Fonts_Title);
 
   -moz-user-select : none;
   -webkit-user-select : none;
@@ -128,7 +104,7 @@
   background-color : var(--Color_Background_Button_Hover);
   box-shadow : 0px 0px 0px 0px var(--Color_Graphics_Shadow);
   border-radius : var(--Border_Radius_None);
+  border-radius : 0px;
 
-  transition : all var(--AnimationTransitionTime);
-  transform : scale(1.0);
+  transition : all var(--AnimationTransitionTime_None);
 }
