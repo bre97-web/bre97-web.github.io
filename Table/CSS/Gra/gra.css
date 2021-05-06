@@ -3,10 +3,11 @@
   float:left;
   background-color:var(--Color_Background);
   position: relative;
+
 }
 
 .BackgroundCenter{
-  float:right;
+  float:left;
   position:relative;
   background-color:var(--Color_Background);
 
