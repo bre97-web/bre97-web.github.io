@@ -2,7 +2,11 @@
 
 
 .ButtonNormal {
-  width : 40%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  width : 90%;
   height :2em;
   margin : 5% auto auto auto;
 
@@ -41,6 +45,22 @@
   background-color:var(--Color_Background);
 
   transition : all var(--AnimationTransitionTime_None);
+
+  
+}
+
+.ButtonTextNoInline {
+  width:30%;
+
+  border-radius: 26px;
+
+  background-color:var(--Color_Background);
+
+  transition : all var(--AnimationTransitionTime_None);
+
+  border-style: solid;
+  border-width: 1px;
+  border-color:#999999;  
 }
 
 .ButtonSmall {  

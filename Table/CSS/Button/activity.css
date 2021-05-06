@@ -23,13 +23,29 @@
 }
 
 .ButtonText:hover{
-  transform: scale(1.1);
   transition : all var(--AnimationTransitionTime_Hover);
   background-color: var(--Color_VisualCenter_White);
+  box-shadow: 0px 1px var(--Size_Graphics_Shadow) 1px var(--Color_Graphics_Shadow);
 }
 .ButtonText:active{
   transition : all var(--AnimationTransitionTime_Active);
   transform: scale(1.2);
+  box-shadow: 0px 1px 0px 1px var(--Color_Graphics_Shadow);
+}
+
+
+
+
+
+.ButtonTextNoInline:hover{
+  width: 100%;
+  transition : all var(--AnimationTransitionTime_Hover);
+  background-color: var(--Color_VisualCenter_White);
+  box-shadow: 0px 1px 5px 1px var(--Color_Graphics_Shadow);
+}
+.ButtonTextNoInline:active{
+  transition : all var(--AnimationTransitionTime_Active);
+  box-shadow: 0px 1px 0px 1px var(--Color_Graphics_Shadow);
 }
 
 
