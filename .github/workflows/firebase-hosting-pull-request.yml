@@ -1,0 +1,28 @@
+name: Firebase (Deploy to Preview Channel)
+
+on:
+  pull_request:
+    # Optionally configure to run only for specific files. For example:
+    # paths:
+    # - "website/**"
+
+jobs:
+  build_and_preview:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: 'npm run build:catalog'
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+          expires: 30d
+          entryPoint: catalog

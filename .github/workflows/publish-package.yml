@@ -1,0 +1,53 @@
+name: Publish to NPM & GPR
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm ci
+      - run: ls
+      - run: npm test
+
+  publish-gpr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: https://npm.pkg.github.com/
+      - run: npm ci
+      - run: npm run publish:gpr
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: npm
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm run publish:npm
+      - run: npm publish -access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_NPM_TOKEN }}

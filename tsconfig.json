@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "target": "es2020",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "allowJs": true,
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["catalog", "**/demo", "scripts"]
+}

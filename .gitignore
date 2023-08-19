@@ -1,0 +1,27 @@
+# common
+node_modules
+!docs/**/*
+!documents/**/*
+
+# node.js about
+*.js
+*.map
+*.d.ts
+
+# css
+!*.css
+!*.scss
+*.css.ts
+
+# the other folders & files
+!demo/**/*
+!scripts/**/*
+!*config*
+!types/*.d.ts
+.wireit/**/*
+
+# catalog & stories
+catalog/docs/**/*
+!catalog/stories/**/*
+!catalog/stories/.firebaserc
+!catalog/stories/firebase.json

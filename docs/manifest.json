@@ -1,0 +1,21 @@
+{
+  "../node_modules/material-symbols/material-symbols-outlined.woff2": {
+    "file": "assets/material-symbols-outlined-87ff410a.woff2",
+    "src": "../node_modules/material-symbols/material-symbols-outlined.woff2"
+  },
+  "index.css": {
+    "file": "assets/index-2abf9a60.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "assets": [
+      "assets/material-symbols-outlined-87ff410a.woff2"
+    ],
+    "css": [
+      "assets/index-2abf9a60.css"
+    ],
+    "file": "assets/index-14424c08.js",
+    "isEntry": true,
+    "src": "index.html"
+  }
+}
