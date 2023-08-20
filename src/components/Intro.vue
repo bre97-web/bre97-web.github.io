@@ -1,12 +1,12 @@
 <template>
-    <PageContent class="relative flex flex-col items-start justify-around min-h-screen">
+    <PageContent class="relative flex flex-col items-start justify-start min-h-screen pt-8">
         <div class="maskTarget absolute w-full h-full left-0 top-0 brightness-50">
             <video class="h-full w-full object-cover" id="intro" autoplay muted loop name="media">
                 <source src="../assets/video/intro.webm" type="video/webm" />
             </video>
         </div>
 
-        <div class="space-y-8">
+        <div>
             <div class="drop-shadow-md">
                 <PageTitle class="active">
                     {{ title }}

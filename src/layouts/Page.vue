@@ -1,5 +1,5 @@
 <template>
-    <div class="space-y-32">
+    <div class="w-full space-y-32">
         <slot></slot>
     </div>
 </template>

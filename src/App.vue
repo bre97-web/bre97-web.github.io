@@ -1,14 +1,13 @@
 <template>
-    <div class="h-screen max-h-screen bg-black/90 overflow-y-auto">
+    <div class="h-screen max-h-screen flex flex-col bg-black/90 overflow-y-auto">
         <Header class="sticky top-0"></Header>
 
-        <main class="w-full h-full">
-            <router-view></router-view>
+        <main class="pb-32 w-full overflow-y-auto">
+            <div class="flex">
+                <router-view></router-view>
+            </div>
         </main>
 
-        <nav></nav>
-
-        <footer></footer>
     </div>
 </template>
 
