@@ -24,7 +24,8 @@ export default defineConfig({
         tag.startsWith('md') || tag.startsWith('lit')
     })
   ],
-  base: 'vue3-component-template',
+  publicDir: 'public',
+  base: '',
   root: './src',
   build: {
     outDir: '../docs',
