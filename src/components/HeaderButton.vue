@@ -1,7 +1,7 @@
 <template>
     <div class="h-full">
         <TitleLarge>
-            <p class="font-bold text-white/75 hover:text-white/90" :class="{'text-white/100': router.currentRoute.value.path === props.path}" @click="router.push(props.path)">
+            <p class="font-bold transition-all hover:underline underline-offset-0 hover:underline-offset-4" :class="router.currentRoute.value.path === props.path ? 'text-white/100' : 'text-white/75'" @click="router.push(props.path)">
                 {{ props.label }}
             </p>
         </TitleLarge>
@@ -18,6 +18,3 @@ const props = defineProps<{
 
 const router = useRouter()
 </script>
-
-<style scoped>
-</style>
