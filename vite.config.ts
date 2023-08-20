@@ -24,7 +24,6 @@ export default defineConfig({
         tag.startsWith('md') || tag.startsWith('lit')
     })
   ],
-  publicDir: 'public',
   base: '',
   root: './src',
   build: {

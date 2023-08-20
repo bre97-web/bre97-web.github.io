@@ -16,17 +16,10 @@
     "type-check": "wireit",
     "dev": "wireit",
     "dev:src": "wireit",
-    "dev:stories": "wireit",
-    "dev:catalog": "npm run dev:stories",
     "build": "wireit",
     "build:src": "wireit",
-    "build:stories": "wireit",
-    "build:catalog": "npm run build:stories",
     "preview": "wireit",
     "preview:src": "wireit",
-    "publish:npm": "node ./scripts/publish-to-npm.js && npm run format:json",
-    "publish:gpr": "node ./scripts/publish-to-gpr.js && npm run format:json",
-    "format:json": "npx prettier --write package.json",
     "format:ts": "tsc --pretty",
     "test": "exit 0"
   },
@@ -34,11 +27,8 @@
   "files": [],
   "workspaces": [],
   "dependencies": {
-    "@fontsource/jetbrains-mono": "^5.0.9",
     "@fontsource/cinzel": "^5.0.8",
     "@fontsource/gowun-batang": "^5.0.7",
-    "@fontsource/noto-sans-sc": "^5.0.7",
-    "@fontsource/roboto": "^5.0.8",
     "@headlessui/vue": "^1.7.15",
     "@material/web": "^1.0.0-pre.15",
     "autoprefixer": "^10.4.15",
@@ -46,12 +36,10 @@
     "lit": "^2.8.0",
     "material-symbols": "^0.10.4",
     "moment": "^2.29.4",
-    "octokit": "^3.1.0",
     "pinia": "^2.1.6",
     "pinia-plugin-persistedstate": "^3.2.0",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3",
-    "tslib": "^2.6.1",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
@@ -87,9 +75,6 @@
         "type-check"
       ]
     },
-    "build:stories": {
-      "command": "storybook build public -o ./catalog/docs"
-    },
     "type-check": {
       "command": "vue-tsc --noEmit"
     },
@@ -108,9 +93,6 @@
     },
     "dev:src": {
       "command": "vite"
-    },
-    "dev:stories": {
-      "command": "storybook dev -p 6006"
     }
   }
 }
