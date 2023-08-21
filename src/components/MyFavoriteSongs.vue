@@ -1,5 +1,5 @@
 <template>
-    <PageContent>
+    <PageContentLayout>
         <DisplayLarge class="text-white">And You know My Favorite songs</DisplayLarge>
 
         <div class="relative max-w-2xl mx-auto text-white text-right border rounded-xl">
@@ -24,11 +24,11 @@
                 <md-icon class="scale-150 rotate-180">play_arrow</md-icon>
             </div>
         </div>
-    </PageContent>
+    </PageContentLayout>
 </template>
 
 <script setup lang="ts">
-import PageContent from '@/layouts/PageContent.vue'
+import PageContentLayout from '@/layouts/PageContentLayout.vue'
 import { ref } from 'vue'
 
 const updating = ref(false)

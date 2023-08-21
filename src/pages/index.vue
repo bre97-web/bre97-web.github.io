@@ -1,5 +1,5 @@
 <template>
-    <Page>
+    <PageLayout>
         <Intro></Intro>
 
         <Divider></Divider>
@@ -9,7 +9,7 @@
         <Divider></Divider>
 
         <MyFavoriteSongs></MyFavoriteSongs>
-    </Page>
+    </PageLayout>
 </template>
 
 <script setup lang="ts">
@@ -17,7 +17,7 @@ import Divider from '@/components/Divider.vue';
 import Intro from '@/components/Intro.vue';
 import MyFavoriteColors from '@/components/MyFavoriteColors.vue';
 import MyFavoriteSongs from '@/components/MyFavoriteSongs.vue';
-import Page from '@/layouts/Page.vue';
+import PageLayout from '@/layouts/PageLayout.vue';
 
 
 </script>

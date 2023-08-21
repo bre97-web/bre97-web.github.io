@@ -1,13 +1,13 @@
 <template>
-    <PageContent>
+    <PageContentLayout>
         <DisplayLarge class="text-white">You know My Favorite colors</DisplayLarge>
 
         <main class="space-y-4">
-            <ul class="flex flex-wrap gap-4 items-center justify-start">
-                <li v-for="(e, index) in colors" :key="index" class="w-16 h-16 overflow-hidden hover:rounded-lg" :class="{'rounded-2xl ring-4 ring-yellow-100': currentColorIndex === index}" @click="currentColorIndex = index">
-                    <div class="w-full h-full" :style="{backgroundColor: e.code}"></div>
-                </li>
-            </ul>
+            <FlexLayout class="flex-wrap items-center justify-start">
+                <FlexItemLayout v-for="(e, index) in colors" :key="index">
+                    <div class="w-16 h-16 transition-all overflow-hidden hover:rounded-lg" :class="{'rounded-2xl ring-4 ring-yellow-100': currentColorIndex === index}" @click="currentColorIndex = index" :style="{backgroundColor: e.code}"></div>
+                </FlexItemLayout>
+            </FlexLayout>
 
             <section class="flex flex-col gap-2">
                 <HeadlineLarge class="text-white">{{ colors[currentColorIndex].color.toUpperCase() }}</HeadlineLarge>
@@ -16,12 +16,13 @@
             </section>
         </main>
 
-        <div></div>
-    </PageContent>
+    </PageContentLayout>
 </template>
 
 <script setup lang="ts">
-import PageContent from '@/layouts/PageContent.vue'
+import FlexItemLayout from '@/layouts/FlexItemLayout.vue';
+import FlexLayout from '@/layouts/FlexLayout.vue';
+import PageContentLayout from '@/layouts/PageContentLayout.vue'
 import { ref } from 'vue';
 
 
