@@ -3,6 +3,7 @@
         <p class="text-white">
             123
         </p>
+        <TitleLarge>1</TitleLarge>
     </Page>
 </template>
 
