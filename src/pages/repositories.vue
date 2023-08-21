@@ -1,15 +1,13 @@
 <template>
-    <Page>
-        <p class="text-white">
-            123
-        </p>
-        <TitleLarge>1</TitleLarge>
-    </Page>
+    <PageLayout class="mt-12">
+
+        <MyRepositories></MyRepositories>
+    </PageLayout>
 </template>
 
 <script setup lang="ts">
-
-import Page from '@/layouts/Page.vue';
+import MyRepositories from '@/components/MyRepositories.vue';
+import PageLayout from '@/layouts/PageLayout.vue';
 
 
 </script>

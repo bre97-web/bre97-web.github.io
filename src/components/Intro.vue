@@ -1,5 +1,5 @@
 <template>
-    <PageContent class="relative flex flex-col items-start justify-start min-h-screen pt-8">
+    <PageContentLayout class="relative flex flex-col items-start justify-start min-h-screen pt-8">
         <div class="maskTarget absolute w-full h-full left-0 top-0 brightness-50">
             <video class="h-full w-full object-cover" id="intro" autoplay muted loop name="media">
                 <source src="../assets/video/intro.webm" type="video/webm" />
@@ -29,11 +29,11 @@
             </div>
         </a>
 
-    </PageContent>
+    </PageContentLayout>
 </template>
 
 <script setup lang="ts">
-import PageContent from '@/layouts/PageContent.vue'
+import PageContentLayout from '@/layouts/PageContentLayout.vue'
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 import GithubIcon from './GithubIcon.vue';
 
