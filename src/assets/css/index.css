@@ -1,0 +1,60 @@
+
+:root {
+    --md-ref-typeface-weight-regular: 400;
+    --md-ref-typeface-weight-medium: 500;
+}
+
+body {
+    transition: all 0.15s;
+    font-family: "GoWun Batang", "Cinzel";
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+label > p,
+label > h1,
+pre,
+code {
+    /* color: var(--md-sys-color-on-surface); */
+    font-weight: 400;
+}
+
+pre,
+code {
+    white-space: pre-wrap;
+}
+
+md-icon {
+    color: var(--md-sys-color-primary);
+}
+
+input {
+    transition: all .15s;
+}
+
+#app > div > main {
+    transition: all 0.15s;
+}
+
+.elevation {
+    --md-elevation-level: 3;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.icon-filled {
+    font-variation-settings: 'FILL' 1;
+    animation: icon-fill 0.15s ease-in;
+}
+
+@keyframes icon-fill {
+    from {
+        font-variation-settings: 'FILL' 0;
+    } to {
+        font-variation-settings: 'FILL' 1;
+    }
+}

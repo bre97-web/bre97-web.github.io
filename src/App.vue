@@ -1,27 +1,18 @@
 <template>
-    <div class="flex flex-col max-h-screen h-full min-h-screen">
-        <header class="px-4 py-2 flex place-content-start items-center">
-            <div class="flex gap-2 items-center justify-start">
-                <md-icon>labs</md-icon>
-                <div>
-                    <TitleMedium>Vue3 Template</TitleMedium>
-                <BodySmall>Local Server</BodySmall>
-                </div>
-            </div>
-        </header>
+    <div class="h-screen max-h-screen flex flex-col bg-black/90 overflow-y-auto">
+        <Header class="sticky top-0"></Header>
 
-        <main class="container self-center m-4 flex-grow overflow-y-auto rounded-[28px] bg-[var(--md-sys-color-surface-container-lowest)]">
-            <router-view></router-view>
+        <main class="pb-32 w-full overflow-y-auto">
+            <div class="flex">
+                <router-view></router-view>
+            </div>
         </main>
 
-        <nav></nav>
-
-        <footer></footer>
     </div>
 </template>
 
 <script setup lang="ts">
-
+import Header from '@/components/Header.vue'
 </script>
 
 <style scoped>
