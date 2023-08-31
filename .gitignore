@@ -1,11 +1,10 @@
 # common
 node_modules
 !docs/**/*
+!docs/*.js
 !documents/**/*
 
 # node.js about
-*.js
-*.map
 *.d.ts
 
 # css
