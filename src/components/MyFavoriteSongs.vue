@@ -42,7 +42,7 @@ const setCurrentIndex = async (index: number) => {
     const setUpdatingFalse = async () => new Promise(() => setTimeout(() => {
         updating.value = false
         currentIndex.value = index === songs.length ? currentIndex.value : index < 0 ? currentIndex.value : index
-    }, 1000))
+    }, 250))
     await setUpdatingFalse()
 }
 const songs = [
@@ -97,7 +97,7 @@ const songs = [
 }
 .updated {
     opacity: 1;
-    animation: inAnimation 0.5s normal;
+    animation: inAnimation 0.25s normal;
 }
 
 @keyframes inAnimation {
